@@ -1,0 +1,77 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Tutors - Unlock Your Potential</title>
+    <link rel="stylesheet" href="{% static 'css/Home.css' %}">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo">Smart Tutors</div>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/Courses">Courses</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <h1>Elevate Your Skills with Smart Tutors</h1>
+                <p>Embark on a journey of knowledge and innovation. Our cutting-edge courses are designed to propel you into the future of learning.</p>
+                <a href="/Courses" class="cta-button">Explore Courses</a>
+            </div>
+        </section>
+
+        <section class="features">
+            <div class="feature-card">
+                <img src="{% static 'images/ai-tutor.svg' %}" alt="AI-Powered Learning">
+                <h3>AI-Powered Learning</h3>
+                <p>Experience personalized education with our advanced AI tutors.</p>
+            </div>
+            <div class="feature-card">
+                <img src="{% static 'images/vr-classes.svg' %}" alt="Virtual Reality Classes">
+                <h3>Virtual Reality Classes</h3>
+                <p>Immerse yourself in interactive 3D environments for enhanced learning.</p>
+            </div>
+            <div class="feature-card">
+                <img src="{% static 'images/global-network.svg' %}" alt="Global Learning Network">
+                <h3>Global Learning Network</h3>
+                <p>Connect with students and experts worldwide in real-time collaborative sessions.</p>
+            </div>
+        </section>
+
+        <section class="testimonials">
+            <h2>What Our Students Say</h2>
+            <div class="testimonial-slider">
+                <!-- Add testimonial slides here -->
+            </div>
+        </section>
+
+        <section id="about" class="about">
+            <h2>About Smart Tutors</h2>
+            <p>Smart Tutors is at the forefront of educational technology, blending cutting-edge AI, VR, and collaborative tools to create an unparalleled learning experience. Our mission is to make high-quality education accessible to everyone, anywhere in the world.</p>
+        </section>
+
+        <section id="contact" class="contact">
+            <h2>Ready to Start Your Journey?</h2>
+            <p>Contact us today and take the first step towards your future.</p>
+            <a href="#" class="cta-button">Get in Touch</a>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Smart Tutors. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
